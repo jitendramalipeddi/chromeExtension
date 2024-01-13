@@ -1,3 +1,4 @@
+//To convert the youtube duration to seconds format
 function convertDurationToSeconds(durationString) {
   // Use regular expressions to extract hours, minutes, and seconds
   const hoursMatch = durationString.match(/(\d+)H/);
