@@ -1,5 +1,5 @@
 import {convertDurationToSeconds} from './secondsConverter.js';
-const apiKey="AIzaSyD3FAxxj7ooCK1zsZELyOGzfg1-ROu-khM";
+const apiKey= // need to use your own API key;
 chrome.tabs.query({currentWindow: true, active: true}, async function(tabs){
   var videoURL= tabs[0].url;
   if(videoURL.includes("youtube")){
